@@ -1,0 +1,5 @@
+// !function e(r,n,t){function o(u,f){if(!n[u]){if(!r[u]){var c="function"==typeof require&&require;if(!f&&c)return c(u,!0);if(i)return i(u,!0);var a=new Error("Cannot find module '"+u+"'");throw a.code="MODULE_NOT_FOUND",a}var s=n[u]={exports:{}};r[u][0].call(s.exports,function(e){var n=r[u][1][e];return o(n||e)},s,s.exports,e,r,n,t)}return n[u].exports}for(var i="function"==typeof require&&require,u=0;u<t.length;u++)o(t[u]);return o}({1:[function(e,r,n){"use strict";!function(e,r){document.getElementById(e).addEventListener("click",function(){var e=window.pageYOffset,n=r/e>1?10:100,t=r/e*n,o=setInterval(function(){0===(e=window.pageYOffset)?clearInterval(o):scrollBy(0,-n)},t)})}("js-button",500)},{}]},{},[1]);
+
+document.addEventListener('DOMContentLoaded', () => {
+    console.log(document.getElementById('hello'));
+  });
